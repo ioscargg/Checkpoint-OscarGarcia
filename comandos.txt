@@ -1,0 +1,19 @@
+MacBook-Pro--OG:Checkpoint-OscarGarcia ioscarg$ git remote add origin https://github.com/ioscargg/Checkpoint-OscarGarcia.git
+MacBook-Pro--OG:Checkpoint-OscarGarcia ioscarg$ git branch -M main
+MacBook-Pro--OG:Checkpoint-OscarGarcia ioscarg$ 
+MacBook-Pro--OG:Checkpoint-OscarGarcia ioscarg$ touch main.js index.html
+MacBook-Pro--OG:Checkpoint-OscarGarcia ioscarg$ git add .
+MacBook-Pro--OG:Checkpoint-OscarGarcia ioscarg$ git commit -m "commit 01 de OscarGarcia"
+MacBook-Pro--OG:Checkpoint-OscarGarcia ioscarg$ git checkout -b feature
+Switched to a new branch 'feature'
+MacBook-Pro--OG:Checkpoint-OscarGarcia ioscarg$ mkdir Hardware Software SeguridadInformatica
+MacBook-Pro--OG:Checkpoint-OscarGarcia ioscarg$ touch Hardware/resumen.txt Software/resument.txt SeguridadInformatica/resumen.txt
+MacBook-Pro--OG:Checkpoint-OscarGarcia ioscarg$ git add .
+MacBook-Pro--OG:Checkpoint-OscarGarcia ioscarg$ git commit -m "commit 02 de Oscar Garcia"
+MacBook-Pro--OG:Checkpoint-OscarGarcia ioscarg$ git push -u origin feature
+MacBook-Pro--OG:Checkpoint-OscarGarcia ioscarg$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+MacBook-Pro--OG:Checkpoint-OscarGarcia ioscarg$ mv main.js resumenHardware.txt
+MacBook-Pro--OG:Checkpoint-OscarGarcia ioscarg$ mv index.html resumenSoftware.txt
+MacBook-Pro--OG:Checkpoint-OscarGarcia ioscarg$ touch comandos.txt
